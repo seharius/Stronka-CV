@@ -263,3 +263,35 @@ body {
 .photo:hover {
   animation: pulse 1s;
 }
+
+#polish-page{
+	display: none;
+}
+
+#english-page{
+	display: block;
+}
+
+.translate-polish,
+.translate-English{
+	color: #fff;
+  	background-color: #ff6b08;
+  	padding-top: 20px;
+ 	padding-right: 43px;
+  	padding-bottom: 20px;
+  	padding-left: 43px;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	font-size: 12px;
+  	font-weight: bold;
+  	box-shadow: 0px 0px 13px 1px rgba(255,107,8,0.4);
+	border: none;
+
+	margin-left: 500px;
+}
+
+.translate-polish:hover,
+.translate-English:hover{
+	box-shadow: 0px 6px 32px 1px rgba(255, 107, 8, 0.92);
+	cursor: pointer;
+}
